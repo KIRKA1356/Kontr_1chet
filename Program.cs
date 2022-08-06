@@ -4,8 +4,11 @@ int size = Convert.ToInt32(Console.ReadLine());
 string[] Array(int size)
 {
     string[] array = new string[size];
+    int s=1;
     for (int i = 0; i < size; i++)
     {
+        Console.WriteLine("Введите " + s + " слово и нажмите Enter");
+        s=s+1;
         array[i] = Console.ReadLine();
     }
     return array;
