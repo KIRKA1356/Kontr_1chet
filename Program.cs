@@ -21,3 +21,6 @@ void ShowArray(string[] array)
     }
     Console.WriteLine();
 }
+
+string[] MyArray = Array(size);
+ShowArray(MyArray);
